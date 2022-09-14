@@ -106,12 +106,22 @@ public class DronServiceImpl implements DroneService {
         Medicine medicine3 = new Medicine("OGE123457","Becombium",150,"Luzys848b");
         Medicine medicine4 = new Medicine("OGE123458","Babyrex",200,"LUMxt3839");
         Medicine medicine5 = new Medicine("OGE123459","Paracetamol",300,"Lumgte398");
+        Medicine medicine6 = new Medicine("OGE123450","Pelicilin",250,"Lumzyxt223");
+        Medicine medicine7 = new Medicine("OGE123451","Amocilin",100,"luMxt3432");
+        Medicine medicine8 = new Medicine("OGE123452","Becombium",150,"Luzys848b");
+        Medicine medicine9 = new Medicine("OGE123453","Babyrex",200,"LUMxt3839");
+        Medicine medicine10 = new Medicine("OGE123454","Paracetamol",300,"Lumgte398");
 
         medicineRepository.save(medicine1);
         medicineRepository.save(medicine2);
         medicineRepository.save(medicine3);
         medicineRepository.save(medicine4);
         medicineRepository.save(medicine5);
+        medicineRepository.save(medicine6);
+        medicineRepository.save(medicine7);
+        medicineRepository.save(medicine8);
+        medicineRepository.save(medicine9);
+        medicineRepository.save(medicine10);
 
 
         droneRepository.setUpdateState(DroneState.LOADING, loadRequest.getSerialNumber());
@@ -191,12 +201,22 @@ public class DronServiceImpl implements DroneService {
         Medicine medicine3 = new Medicine("OGE123457","Becombium",150,"Luzys848b");
         Medicine medicine4 = new Medicine("OGE123458","Babyrex",200,"LUMxt3839");
         Medicine medicine5 = new Medicine("OGE123459","Paracetamol",300,"Lumgte398");
+        Medicine medicine6 = new Medicine("OGE123450","Pelicilin",250,"Lumzyxt223");
+        Medicine medicine7 = new Medicine("OGE123451","Amocilin",100,"luMxt3432");
+        Medicine medicine8 = new Medicine("OGE123452","Becombium",150,"Luzys848b");
+        Medicine medicine9 = new Medicine("OGE123453","Babyrex",200,"LUMxt3839");
+        Medicine medicine10 = new Medicine("OGE123454","Paracetamol",300,"Lumgte398");
 
         medicineRepository.save(medicine1);
         medicineRepository.save(medicine2);
         medicineRepository.save(medicine3);
         medicineRepository.save(medicine4);
         medicineRepository.save(medicine5);
+        medicineRepository.save(medicine6);
+        medicineRepository.save(medicine7);
+        medicineRepository.save(medicine8);
+        medicineRepository.save(medicine9);
+        medicineRepository.save(medicine10);
 
     }
 
